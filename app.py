@@ -9,8 +9,8 @@ from flask_login import LoginManager, current_user
 from flask_login import login_user, logout_user
 from flask_login import login_required
 
-from .forms import LoginForm
-from .model import User
+from forms import LoginForm
+from model import User
 
 import json
 
