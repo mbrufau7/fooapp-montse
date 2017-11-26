@@ -3,7 +3,7 @@ from flask import render_template
 from flask_pymongo import PyMongo
 from flask import abort, jsonify, redirect, render_template
 from flask import request, url_for
-from .forms import ProductForm
+from forms import ProductForm
 from bson.objectid import ObjectId
 from flask_login import LoginManager, current_user
 from flask_login import login_user, logout_user
